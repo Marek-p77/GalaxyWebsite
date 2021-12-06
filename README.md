@@ -1,4 +1,4 @@
-# GalaxyWebsite v1.0
+# 🌐 GalaxyWebsite v1.0
 
 ### 📄 Popis
 
