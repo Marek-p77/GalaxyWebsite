@@ -1,4 +1,4 @@
-# GalaxyWebsite
+# GalaxyWebsite v1.0
 
 ### 📄 Popis
 
