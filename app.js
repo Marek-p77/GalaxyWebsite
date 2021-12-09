@@ -11,7 +11,7 @@
 | Name: GalaxyWebsite |
 | Version: v1.0 prod. |  My GitHub Profile:
 | Author: Marek_p     |  https://github.com/Marek-p77  
------------------------ 
+-----------------------
 
 */
 const menu = document.querySelector('#mobile-menu');
