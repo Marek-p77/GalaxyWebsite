@@ -1,110 +1,167 @@
 <!DOCTYPE html>
-<html lang="cs"> <!-- Jazyk stránky -->
+<html lang="cs">
+<!-- Jazyk stránky -->
+
 <head>
     <!-- ##### Head ##### -->
-    <meta charset="UTF-8" /> <!-- Encoding -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Kompatibilita webu podle velikosti monitoru -->
-    <title>GalaxyCode</title> <!-- Nadpis karty stránky -->
-    <link rel = "icon" href ="galaxycode.png" type = "image/x-icon"> <!-- Logo v kartě webu -->
-    <link rel="stylesheet" href="style.css" /> <!-- Import souboru stylů -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"/> <!-- Import ikon -->
+    <meta charset="UTF-8" />
+    <!-- Encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Kompatibilita webu podle velikosti monitoru -->
+    <title>GalaxyCode</title>
+    <!-- Nadpis karty stránky -->
+    <link rel="icon" href="galaxycode.png" type="image/x-icon">
+    <!-- Logo v kartě webu -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Import souboru stylů -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <!-- Import ikon -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Import fontů -->
 </head>
-<body> <!-- ##### Body ##### -->
-<nav class="navbar"> <!-- ##### Navbar ##### -->
-    <div class="navbar-container">
-        <a href="#home" class="navbar-logo">𝙂𝙖𝙡𝙖𝙭𝙮𝘾𝙤𝙙𝙚</a> <!-- Nadpis v horním Menu -->
-        <div class="navbar-toggle" id="mobile-menu">
-            <span class="bar"></span> <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        <!-- ##### Odkazy v Navbaru ##### -->
-        <ul class="navbar-menu"> <!-- Výběr v horním Menu -->
-            <li class="navbar-item">
-                <a href="#home" class="navbar-links" id="home-page">Domů</a> <!-- První tlačítko v horním Menu -->
-            </li>
-            <li class="navbar-item">
-                <a href="#about" class="navbar-links" id="about-page">Info</a> <!-- Druhé tlačítko v horním Menu -->
-            </li>
-            <li class="navbar-item">
-                <a href="#projects" class="navbar-links" id="projects-page">Projekty</a> <!-- Třetí tlačítko v horním Menu -->
-            </li>
-            <!--<li class="navbar-btn">
+
+<body>
+    <!-- ##### Body ##### -->
+    <nav class="navbar">
+        <!-- ##### Navbar ##### -->
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo">𝙂𝙖𝙡𝙖𝙭𝙮𝘾𝙤𝙙𝙚</a>
+            <!-- Nadpis v horním Menu -->
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- ##### Odkazy v Navbaru ##### -->
+            <ul class="navbar-menu">
+                <!-- Výběr v horním Menu -->
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-links" id="home-page">Domů</a>
+                    <!-- První tlačítko v horním Menu -->
+                </li>
+                <li class="navbar-item">
+                    <a href="#about" class="navbar-links" id="about-page">Info</a>
+                    <!-- Druhé tlačítko v horním Menu -->
+                </li>
+                <li class="navbar-item">
+                    <a href="#projects" class="navbar-links" id="projects-page">Projekty</a>
+                    <!-- Třetí tlačítko v horním Menu -->
+                </li>
+                <li class="navbar-item">
+                    <div class="menu-btn"><a href="https://dsc.gg/galaxycode"><button>Discord</button></a></div>
+                    <!-- Třetí tlačítko v horním Menu -->
+                </li>
+                <!--<li class="navbar-btn">
                 <a href="auth/login" class="button" id="signup">Přihlásit se</a>
             </li>-->
-        </ul>
-    </div>
-</nav> <!-- ##### Úvod ##### -->
-<div class="title" id="home"> <!-- Uvodní sekce -->
-    <div class="title-container">
-        <h1 class="title-heading"><span>𝙂𝙖𝙡𝙖𝙭𝙮𝘾𝙤𝙙𝙚</span></h1> <!-- Nadpis úvodní sekce -->
-        <p class="title-description">Programátorská Komunita</p> <!-- Text pod nadpisem výše -->
-        <button class="main-btn"><a href="https://dsc.gg/galaxycode">Discord</a></button> <!-- Tlačítko s odkazem na Discord -->
-    </div>
-</div> <!-- ##### Informace ##### -->
-<div class="main" id="about"> <!-- Sekce o nás -->
-    <div class="main-container">
-        <div class="main-img-container">
-            <div class="main-img-card hover"><i class="fas fa-users"></i></div>
+            </ul>
         </div>
-        <div class="main-content">
-            <h1>Informace</h1> <!-- Nadpis sekce o nás -->
-            <p>Jsme malá komunita začínajících developerů a navzájem si pomáháme a učíme se</p> <!-- Text pod nadpisem výše -->
-            <button class="main-btn"><a href="https://dsc.gg/galaxycode">Discord</a></button> <!-- Tlačítko s odkazem na Discord -->
+    </nav>
+    <!-- ##### Úvod ##### -->
+    <div class="title" id="home">
+        <!-- Uvodní sekce -->
+        <div class="title-container">
+            <h1 class="title-heading"><span>𝙂𝙖𝙡𝙖𝙭𝙮𝘾𝙤𝙙𝙚</span></h1>
+            <!-- Nadpis úvodní sekce -->
+            <p class="title-description">Programátorská Komunita</p>
+            <!-- Text pod nadpisem výše -->
+            <button class="main-btn"><a href="https://dsc.gg/galaxycode">Discord</a></button>
+            <!-- Tlačítko s odkazem na Discord -->
         </div>
     </div>
-</div> <!-- ##### Karty Projektů ##### -->
-<div class="projects" id="projects"> <!-- Sekce s projekty -->
-    <h1>Naše Projekty</h1> <!-- Nadpis sekce s projekty -->
-    <div class="projects-wrapper">
-        <div class="projects-card">
-            <h2>𝘿𝙞𝙨𝙘𝙤𝙧𝙙 𝘽𝙤𝙩</h2> <!-- Nadpis první velké karty -->
-            <p>Multifunkční embed bot se statusem Minecraft serverů</p> <!-- Popis první velké karty -->
-            <div class="projects-btn"><a href="https://github.com/Marek-p77/GalaxyCode-Discord-Bot"><button>GitHub</button></a></div> <!-- Tlačítko s odkazem na GitHub -->
-        </div>
-        <div class="projects-card">
-            <h2>𝙈𝙞𝙣𝙚𝙘𝙧𝙖𝙛𝙩 𝙋𝙡𝙪𝙜𝙞𝙣</h2> <!-- Nadpis druhé velké karty -->
-            <p>Multifunkční plugin s velkou budoucností</p> <!-- Popis druhé velké karty -->
-            <div class="projects-btn"><a href="https://github.com/Marek-p77/GalaxyCore-MC-Plugin"><button>GitHub</button></a></div> <!-- Tlačítko s odkazem na GitHub -->
-        </div>
-        <div class="projects-card">
-            <h2>𝘼𝙙𝙢𝙞𝙣 𝙋𝙖𝙣𝙚𝙡</h2> <!-- Nadpis třetí velké karty -->
-            <p>Panel pro správu uživatelů, kreditů a informací</p> <!-- Popis třetí velké karty -->
-            <div class="projects-btn"><a href="https://github.com/Marek-p77/User-Management-Panel"><button>GitHub</button></a></div> <!-- Tlačítko s odkazem na GitHub -->
-        </div>
-        <div class="projects-card">
-            <h2>𝙂𝙖𝙡𝙖𝙭𝙮 𝙒𝙚𝙗</h2> <!-- Nadpis čtvrté velké karty -->
-            <p>Tento web je open-source a můžeš ho používat i ty</p> <!-- Popis čtvrté velké karty -->
-            <div class="projects-btn"><a href="#"><button>GitHub</button></a></div> <!-- Tlačítko s odkazem na GitHub -->
-        </div>
-    </div>
-</div> <!-- ##### Footer ##### -->
-<div class="footer-container"> <!-- Patička webu -->
-    <div class="footer-links">
-        <div class="footer-link-wrapper">
-            <div class="footer-link-items">
-                <h2>O Nás</h2> <!-- Nadpis prvního sloupce patičky -->
-                <a href="#about">Informace</a>
+    <!-- ##### Informace ##### -->
+    <div class="main" id="about">
+        <!-- Sekce o nás -->
+        <div class="main-container">
+            <div class="main-img-container">
+                <div class="main-img-card hover"><i class="fas fa-users"></i></div>
             </div>
-            <div class="footer-link-items">
-                <h2>Kontakt</h2> <!-- Nadpis druhého sloupce patičky -->
-                <a href="https://dsc.gg/galaxycode">Discord</a>
-            </div>
-        </div>
-        <div class="footer-link-wrapper">
-            <div class="footer-link-items">
-                <h2>Návody</h2> <!-- Nadpis třetího sloupce patičky -->
-                <a href="https://marekp.gitbook.io/galaxycode/">Znalostní Báze</a>
+            <div class="main-content">
+                <h1>Informace</h1>
+                <!-- Nadpis sekce o nás -->
+                <p>Jsme malá komunita začínajících developerů a navzájem si pomáháme a učíme se</p>
+                <!-- Text pod nadpisem výše -->
+                <button class="main-btn"><a href="https://dsc.gg/galaxycode">Discord</a></button>
+                <!-- Tlačítko s odkazem na Discord -->
             </div>
         </div>
     </div>
-</div> <!-- ##### Import JavaScriptů -->
-<script src="app.js"></script>
-<script type="text/javascript" src="hover.js"></script>
-<script type="text/javascript">
-    VanillaTilt.init(document.querySelector(".hover"), { // Otáčivý efekt z hover.js
-        max: 25,
-        speed: 400
-    });
-</script>
+    <!-- ##### Karty Projektů ##### -->
+    <div class="projects" id="projects">
+        <!-- Sekce s projekty -->
+        <h1>Naše Projekty</h1>
+        <!-- Nadpis sekce s projekty -->
+        <div class="projects-wrapper">
+            <div class="projects-card">
+                <h2>𝘿𝙞𝙨𝙘𝙤𝙧𝙙 𝘽𝙤𝙩</h2>
+                <!-- Nadpis první velké karty -->
+                <p>Multifunkční embed bot se statusem Minecraft serverů</p>
+                <!-- Popis první velké karty -->
+                <div class="projects-btn"><a href="https://github.com/Marek-p77/GalaxyCode-Discord-Bot"><button>GitHub</button></a></div>
+                <!-- Tlačítko s odkazem na GitHub -->
+            </div>
+            <div class="projects-card">
+                <h2>𝙈𝙞𝙣𝙚𝙘𝙧𝙖𝙛𝙩 𝙋𝙡𝙪𝙜𝙞𝙣</h2>
+                <!-- Nadpis druhé velké karty -->
+                <p>Multifunkční plugin s velkou budoucností</p>
+                <!-- Popis druhé velké karty -->
+                <div class="projects-btn"><a href="https://github.com/Marek-p77/GalaxyCore-MC-Plugin"><button>GitHub</button></a></div>
+                <!-- Tlačítko s odkazem na GitHub -->
+            </div>
+            <div class="projects-card">
+                <h2>𝘼𝙙𝙢𝙞𝙣 𝙋𝙖𝙣𝙚𝙡</h2>
+                <!-- Nadpis třetí velké karty -->
+                <p>Panel pro správu uživatelů, kreditů a informací</p>
+                <!-- Popis třetí velké karty -->
+                <div class="projects-btn"><a href="https://github.com/Marek-p77/User-Management-Panel"><button>GitHub</button></a></div>
+                <!-- Tlačítko s odkazem na GitHub -->
+            </div>
+            <div class="projects-card">
+                <h2>𝙂𝙖𝙡𝙖𝙭𝙮 𝙒𝙚𝙗</h2>
+                <!-- Nadpis čtvrté velké karty -->
+                <p>Tento web je open-source a můžeš ho používat i ty</p>
+                <!-- Popis čtvrté velké karty -->
+                <div class="projects-btn"><a href="#"><button>GitHub</button></a></div>
+                <!-- Tlačítko s odkazem na GitHub -->
+            </div>
+        </div>
+    </div>
+    <!-- ##### Footer ##### -->
+    <div class="footer-container">
+        <!-- Patička webu -->
+        <div class="footer-links">
+            <div class="footer-link-wrapper">
+                <div class="footer-link-items">
+                    <h2>O Nás</h2>
+                    <!-- Nadpis prvního sloupce patičky -->
+                    <a href="#about">Informace</a>
+                </div>
+                <div class="footer-link-items">
+                    <h2>Kontakt</h2>
+                    <!-- Nadpis druhého sloupce patičky -->
+                    <a href="https://dsc.gg/galaxycode">Discord</a>
+                </div>
+            </div>
+            <div class="footer-link-wrapper">
+                <div class="footer-link-items">
+                    <h2>Návody</h2>
+                    <!-- Nadpis třetího sloupce patičky -->
+                    <a href="https://marekp.gitbook.io/galaxycode/">Znalostní Báze</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Import JavaScriptů -->
+    <script src="app.js"></script>
+    <script type="text/javascript" src="hover.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".hover"), { // Otáčivý efekt z hover.js
+            max: 25,
+            speed: 400
+        });
+    </script>
 </body>
+
 </html>
