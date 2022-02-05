@@ -1,4 +1,4 @@
-# 🌐 GalaxyWebsite v1.1
+# 🌐 GalaxyWebsite v1.2
 
 ### 📄 Popis
 
@@ -12,11 +12,11 @@ Oficiální webová stránka programátorské komunity GalaxyCode. Odkaz: https:
 
 ## 📜 Changelog:
 
-### 17.12.2021 - Úprava fontu a hlavičky
+### 17.12.2021 - Úprava fontu a hlavičky [v1.1]
 - Nová animace menu
 - Změna fontu stránky
 
-### 6.2.2022 - Team Sekce
+### 5.2.2022 - Team Sekce [v1.2]
 - Přidána sekce pro Team
 - Speciální styl scrollovací lišty
 - Opraven odkaz v Projektech
