@@ -2,7 +2,7 @@
 
 ### 📄 Popis
 
-Upravil TKDEV
+Upravil TKDΞV#9775 (animace menu + font)
 
 Oficiální webová stránka programátorské komunity GalaxyCode. Odkaz: https://galaxycode.eu
 
