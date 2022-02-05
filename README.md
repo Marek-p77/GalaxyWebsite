@@ -13,8 +13,10 @@ Oficiální webová stránka programátorské komunity GalaxyCode. Odkaz: https:
 ## 📜 Changelog:
 
 ### 17.12.2021 - Úprava fontu a hlavičky
-- Nová animace
+- Nová animace menu
+- Změna fontu stránky
 
 ### 6.2.2022 - Team Sekce
-- Přidána sekce pro team
+- Přidána sekce pro Team
 - Speciální styl scrollovací lišty
+- Opraven odkaz v Projektech
